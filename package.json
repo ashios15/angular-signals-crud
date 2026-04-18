@@ -1,0 +1,34 @@
+{
+  "name": "@ashishjoshi/angular-signals-crud",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full CRUD app using Angular 17+ standalone components, Signals, new control flow (@if/@for/@defer), and functional guards/resolvers",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.6.0",
+    "zone.js": "~0.14.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^17.3.0",
+    "@angular/cli": "^17.3.0",
+    "@angular/compiler-cli": "^17.3.0",
+    "typescript": "~5.4.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0"
+  }
+}
