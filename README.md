@@ -6,17 +6,6 @@ Full CRUD application built with **Angular 17+** showcasing the latest Angular f
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue?logo=typescript)
 ![Signals](https://img.shields.io/badge/State-Signals-8B5CF6)
 
-## Why This Project
-
-Shows deep Angular expertise beyond "I've used Angular". Specifically demonstrates:
-
-- **Signals for state management** — No NgRx or RxJS needed for local state; `signal()`, `computed()`, and `update()` handle everything
-- **Standalone components** — No `NgModule` anywhere; tree-shakeable by default
-- **New control flow** — `@if`, `@for`, `@empty` instead of `*ngIf`/`*ngFor` directives
-- **Lazy-loaded routes** — Dynamic `import()` with `loadComponent` (no route modules)
-- **Signal-based store** — Centralized state with derived computed signals
-- **`inject()` function** — Constructor-free dependency injection
-
 ## Architecture
 
 ```
